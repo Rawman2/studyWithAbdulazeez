@@ -1,0 +1,32 @@
+section {
+    width: 40%;
+    display: inline-block;
+    background-color: rgb(5, rgb(175, 30, 49), rgb(90, 73, 51));
+    margin: 5px;
+    float: left;
+}
+h2 {
+    background-color: blue;
+    
+}
+
+#header3 {
+    background-color: blue;
+    display:block;
+    float: none;
+    width: 100%;
+}
+.closed{
+    display: none;
+}
+.open{
+    display: block;
+    background-color: black;
+    padding: 5px 0px;
+}
+a {
+    display: block;
+    padding: 5px 5px;
+    margin: 5px;
+    background-color: brown;
+}

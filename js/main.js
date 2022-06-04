@@ -16,8 +16,75 @@
 //     console.log(specialCases || numbers);
 // }
 
-function greet(who) {
-    console.log("Hello " + who);
-    }
-    greet("Harry");
-    console.log("Bye");
+
+// function printFarmInventory(cows, chickens) {
+//     let cowsNo = String(cows);
+//     while (cowsNo.length < 3) {
+//         cowsNo = "0" + cowsNo;
+//     }
+//     console.log(`${cowsNo} cows`)
+
+//     let chickensNo = String(chickens)
+//     while (chickensNo.length < 3) {
+//         chickensNo = "0" + chickensNo;
+//     }
+//     console.log(`${chickensNo} chickens`)
+// }
+// printFarmInventory(prompt("input the numbers of Cows"), prompt("input the numbers of chickens"));
+
+// function printFarmInventory(cows, chickens) {
+//     let cowString = String(cows);
+//     while (cowString.length < 3) {
+//     cowString = "0" + cowString;
+//     }
+//     console.log(`${cowString} Cows`);
+//     let chickenString = String(chickens);
+//     while (chickenString.length < 3) {
+//     chickenString = "0" + chickenString;
+//     }
+//     console.log(`${chickenString} Chickens`);
+//     }
+//     printFarmInventory(7, 11);
+
+// const printFarmInventory = (cows, chickens) => {
+//     let cowString = String(cows);
+//     while (cowString.length < 3) {
+//         cowString = "0" + cowString;
+//     }
+//     console.log(`${cowString} cows`);
+
+//     let chickenString = String(chickens);
+//     while (chickenString.length < 3) {
+//         chickenString = "0" + chickenString;
+//     }
+//     console.log(`${chickenString} chickens`)
+// }
+// printFarmInventory(prompt("cow numbers"), prompt("chicken numbers"));
+
+
+// const myObj = {
+//     name : "rawman",
+//     hobbies : ['eat', 'sleep', 'code'],
+//     hello : function () {
+//         console.log("Hello!");
+//     }
+// };
+// console.log(myObj);
+// console.log(myObj.name);
+// myObj.hello();
+// console.log(typeof myObj);
+
+// const sendJSON = JSON.stringify(myObj);
+// console.log(sendJSON);
+
+// function closeMe() {
+//     document.getElementById("demo").className="closed";
+// }
+
+// function openMe(){
+//     document.getElementById("demo").className="open";
+// }
+
+
+
+
